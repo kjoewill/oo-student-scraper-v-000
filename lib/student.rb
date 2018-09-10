@@ -6,7 +6,9 @@ class Student
 
   def initialize(student_hash)
     
-    stu
+    student_hash.each do |e|
+      self.
+    end
     
   end
 
