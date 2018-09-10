@@ -11,7 +11,7 @@ class Student
 
   def self.create_from_collection(students_array)
     
-    students_array.collect { |hash| self.new(h) }
+    students_array.collect { |hash| self.new(hash) }
     
   end
 
