@@ -6,9 +6,8 @@ class Student
 
   def initialize(student_hash)
     
-      self.send(k, v)
-      @@all << self
-    end
+    student_hash.each { |k,v| self.send(k,v) }
+    @@all << self
     
   end
 
